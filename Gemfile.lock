@@ -35,5 +35,4 @@ DEPENDENCIES
   jekyll-sass-converter (~> 1.5.2)
 
 BUNDLED WITH
-   #1.16.1
-   2.5.9
+  1.16.1
