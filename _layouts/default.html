@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+
+<body class="ribbon">
+
+  {% include header.html %}
+
+  <div class="divider">
+    <main>
+      <title> {{page.title}} </title>
+      <div> {{ content }} </div>
+    </main>
+  </div>
+
+  <div class="divider">
+    <div class="center">
+      <div> {% include footer.html %} </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
