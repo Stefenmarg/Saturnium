@@ -1,6 +1,6 @@
 list:
  - {name: 'Home', url: '/'}
- - {name: 'Changelogs', url: '/changelogs/'}
- - {name: 'Archives', url: '/archives/'}
- - {name: 'About', url: '/about/'}
+ - {name: 'Changelogs', url: '/changelogs'}
+ - {name: 'Archives', url: '/archives'}
+ - {name: 'About', url: '/about'}
  - {name: 'Feed', url: '/feed.xml'}
