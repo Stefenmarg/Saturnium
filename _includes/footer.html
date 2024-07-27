@@ -2,12 +2,12 @@
     <div>
         <nav>
             {% for item in site.data.social.list %}
-                <a class="navigation" href="{{item.url  | relative_url}}"> {{item.name}} </a>
+                <a class="navigation" href="{{ item.url }}"> {{item.name}} </a>
             {% endfor %}
         </nav>
         <nav>
             {% for item in site.data.footer.list %}
-                <a class="navigation" href="{{item.url  | relative_url}}"> {{item.name}} </a>
+                <a class="navigation" href="{{ item.url }}"> {{item.name}} </a>
             {% endfor %}
         </nav>
     </div>
