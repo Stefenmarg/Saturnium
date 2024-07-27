@@ -2,7 +2,7 @@
     <h1>{{ site.title }}</h1>
     <nav>
         {% for item in site.data.header.list %}
-            <a class="navigation" href="{{ site.github.url }}{{ item.url }}"> {{item.name}} </a>
+            <a class="navigation" href="{{ site.baseurl }}/{{ item.url }}"> {{item.name}} </a>
         {% endfor %}
     </nav>
 </header>
