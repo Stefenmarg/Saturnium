@@ -1,7 +1,7 @@
 ---
 layout: filter
 title: Changelogs
-permalink: /changelogs/
+permalink: /changelogs
 category: 'changelog'
 ---
 
