@@ -10,7 +10,7 @@ Here's the link too if it helps better:
 */
 
 html * {
-    font-family: Arial !important;
+    font-family: Arial;
 }
 
 body {
@@ -22,9 +22,6 @@ body {
 
 a {
     color: #499167;
-}
-a:visited {
-    color: #1d3a29;
 }
 
 .center {
@@ -40,7 +37,14 @@ a:visited {
     margin-left: 3px;
     margin-right: 3px;
     text-decoration: none;
+    font-weight: bold;
     bottom: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation:hover {
+    transform: scale(1.5);
+    color: #1d3a29;
 }
 
 .ribbon {
@@ -55,4 +59,10 @@ a:visited {
     border-top-width: 2px;
     border-top-style: solid;
     border-top-color: rgba(29, 32, 31, .5);
+}
+
+.social {
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
 }
